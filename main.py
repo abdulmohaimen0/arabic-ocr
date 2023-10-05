@@ -4,7 +4,6 @@ import cv2
 import re
 import numpy as np
 
-
 app = Flask(__name__)
 
 # Initialize EasyOCR reader
@@ -82,5 +81,3 @@ def ocr():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
